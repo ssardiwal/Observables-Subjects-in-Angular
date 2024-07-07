@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="card p-5">
+    <form #f="ngForm" name="form">
+      <div class="mb-3">
+        <label class="form-label" for="exampleInputEmail1">Email address</label>
+        <input aria-describedby="emailHelp"
+               class="form-control"
+               id="exampleInputEmail1"
+               type="email" />
+
+        <div class="form-text" id="emailHelp">
+          We'll never share your email with anyone else.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="exampleInputPassword1">Password</label>
+
+        <input class="form-control" id="exampleInputPassword1" type="password" />
+      </div>
+      <div class="mb-3 form-check">
+        <input class="form-check-input" id="exampleCheck1" type="checkbox" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
